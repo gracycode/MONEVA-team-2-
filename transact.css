@@ -1,0 +1,425 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "gilroy";
+}
+/* *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: "gilroy";
+} */
+@font-face {
+    font-family: "gilroy";
+    src: url(./fonts/Gilroy-Light.otf);
+}
+html{
+    font-size: 62.5px;
+}
+aside{
+    width: 241px;
+    min-height: 161vh;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 15px;
+    background: #F3F0FE;
+
+}
+.menu-bar, .income-expense, .search-bar .btn-mobile1{
+    display: none;
+}
+.transfer-mobile{
+    display: none;
+}
+.search-bar .fa-magnifying-glass{
+    display: none;
+}
+
+.moneva-logo-img{
+height: 4vh;
+width: 9vw;
+margin-left: 0.6rem;
+margin-top: 0.4rem;
+margin-bottom: 1rem;
+}
+/* .aside-imgs1{
+    position: absolute;
+    margin-top: 0.83rem;
+} */
+.flex{
+    display: flex;
+    margin-bottom: 0.4rem;
+   
+}
+aside a{
+    text-decoration: none;
+    color: #757575;
+    margin-left: 0.2rem;
+
+}
+.transactions-bg, .transactions-bg a{
+    color: #F3F0FE;
+    background: #8A66F1;
+    /* padding: 0.1rem 0 0.1rem; */
+    border-radius: 0.1rem;
+}
+.transactions-bg{
+    padding: 0.1rem 0.2rem;
+    margin-left: -0.2rem;
+}
+.transactions-mobile{
+    display: none;
+
+}
+/* .ifeanyi-mobile{
+    display: flex;
+    justify-content: space-between;
+} */
+.fa-circle-question{
+    margin-top: 3.8rem;
+}
+/* .Drizzy-Avatars{
+    height: 
+} */
+ .drizzy{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+ }
+ .drizzy p{
+    margin-left: 0.22rem;
+ }
+ /* .fa-arrow-right-from-bracket{
+    padding-top: 0.1rem;
+ } */
+ .get-help, .fa-circle-question, .fa-gear{
+    color: #757575;
+    margin-bottom: 0.5rem;
+ }
+ hr{
+    border: 1px solid #EFEFEF
+ }
+/* .aside-imgs{
+    width: 20px;
+    height: 20px;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1 solid #EFEFEF;
+    margin-bottom: 0.2rem;
+    align-items: center;
+}
+header .search-btn button{
+    margin-top: 18px;
+    margin-left: 0.5rem;
+    font-size: 0.19rem;
+    color: #CACACA;
+    width: 4.8rem;
+    padding: 12px 16px;
+    background: #F7F7F7;
+    border-radius: 36px;
+    border: none;
+}
+.fa-magnifying-glass{
+    /* border: 1px solid #CACACA; */
+    color: #CACACA;
+    position: absolute;
+    margin-top: 0.44rem;
+    margin-left: 1.3rem;
+}
+header .Ai-div{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 0.3rem;
+    color: #757575;
+
+}
+header .Ai-div button{
+    color: #FFFFFF;
+    background: #8A66F1;
+    border: none;
+    font-size: 0.22rem;
+    border-radius: 2rem;
+    padding: 14px 24px;
+}
+.ai-icon{
+    position: absolute;
+    margin-left: 0.1rem;
+}
+.fa-bell{
+    color:  #A0A0A0;
+    margin-right: 0.4rem;
+    margin-left: 0.4rem;
+    font-size: 0.3rem;   
+}
+.Ai-div p{
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+/* .expense{
+    padding: 8px 12px;
+    background: red;
+    width: 35%;
+} */
+/* .expense button{
+    border: none;
+    padding: 8px 12px;
+    border-radius: 18px;
+}
+.all-btn{
+    background-color: #CACACA;
+} */
+
+.transaction{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 36px;
+}
+.transaction .today h3{
+    margin-bottom: 0.2rem;
+}
+.transaction .input-date input{
+    color: #757575;
+    font-size: 14px;
+    padding: 10px 16px 10px 30px;
+    border: 1px solid #EFEFEF;
+    border-radius: 7px;
+}
+.fa-calendar-days{
+    color: #757575;
+    position: absolute;
+    margin-top: 0.38rem;
+    margin-left: 0.18rem;
+
+}
+.today{
+    margin-top: 0.7rem; 
+    margin-left: 0.6rem;
+}
+.transaction .today p{
+    margin-bottom: 0.7rem;
+}
+.transaction .input-date .filters{
+    margin-top: 0.7rem;
+}
+.download-img{
+    border: 1px solid #EFEFEF;
+    border-radius: 7px;
+    padding: 9px;
+    /* margin-top: 1.7rem; */
+
+}
+.filters{
+    /* margin-top: 2.5rem;*/
+    /* margin-left: 2.5rem;  */
+    display: flex;
+    justify-content:space-between;
+    width: 1020px;
+    margin-bottom: 0.5rem;
+
+}
+.filter-img{
+    position: absolute;
+    margin-top: 0.19rem;
+    margin-left: 0.19rem;
+}
+.filters-img-div{
+    margin-left: 0.6rem;
+}
+/* .filter-last-div{
+    padding-left: 6rem;
+} */
+.filter-btn{
+    color: #595959;
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+    padding: 12px 18px 12px 38px;
+    border-radius: 8px;
+}
+.add-new-btn{
+    color: #FFFFFF;
+    font-size: 14px;
+    background: #8A66F1;
+    padding: 12px 18px 12px 38px;
+    border: none;
+    border-radius: 31px;
+
+}
+.fa-plus{
+    color: #FFFFFF;
+    position: absolute;
+    margin-top: 0.2rem;
+    margin-left: 0.2rem;
+}
+
+/* styling for table starts here */
+table, tr{
+    border:  1px solid #EFEFEF;
+    border-collapse: collapse;
+    /* text-align:left; */
+    margin-left: 4.5rem;
+    align-items: center;
+}
+table{
+    width: 1020px;
+    height: 312px;
+   
+}
+table tr th{
+    background: #FCFCFC;
+    text-align: left;
+    color: #595959;
+
+}
+.input-th{
+    margin-right: 0.2rem;
+}
+tr, th, td{
+    margin-bottom: 2rem;
+    height: 72px;
+}
+table tr td{
+    color: #595959;
+
+}
+table tr .income p{
+    border: 0.5px solid #32CD32;
+    border-radius: 1.5rem;
+    background: #F7FFF7;
+    color: #32CD32;
+    /* height:24px; */
+    /* margin-bottom: 1rem; */
+    padding: 6px 24px 6px 24px;
+    width: 1.54rem;
+   
+    
+}
+table tr .expense p{
+    border: 0.5px solid #FF4C4C;
+    background: #FFF6F6;
+    color: #FF4C4C;
+    width: 1.54rem;
+    padding: 6px 24px 6px 20px;
+    gap: 10px;
+    border-radius: 1.5rem;
+
+}
+
+table tr td h3{
+    /* position: absolute; */
+    margin-left: 1.4rem;
+    margin-top: -0.4rem;
+}
+table tr td .transfer-p{
+    /* position: absolute; */
+    margin-left: 1.4rem;
+    color: #A0A0A0;
+
+}
+table tr td .time-p{
+    color: #A0A0A0;
+
+}
+.fa-pen-to-square, .fa-trash-can, .fa-ellipsis{
+    background: #F7F7F7;
+    padding: 8px;
+    border-radius: 16px;
+    margin-right: 0.2rem;
+
+}
+
+table tr .td-img1{
+    position: absolute;
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+input[type=checkbox]{
+    margin-left: 0.3rem;
+    color: #EFEFEF;
+    margin-top: 0.2rem;
+}
+
+/*mobile responsiveness*/
+
+@media(max-width: 700px){
+    /* *{
+        font-size: 12px;
+    } */
+    html{
+        font-size: 50%;
+    }
+    #aside aside{
+        display: none;
+    }
+    header, .transaction, .filters{
+        display: none;
+    }
+
+    .menu-bar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .search-bar .btn-mobile1{
+        display: block;
+        border-radius: 36px;
+        width: 335px;
+        height: 40px;
+        border: none;
+        background: #F7F7F7;
+        color: #CACACA;   
+    }
+    .transactions-mobile{
+        display:flex;
+        justify-content: space-between;
+    }
+    .income-expense{
+        display: flex;
+        justify-content: space-between;
+    }
+    .transfer-mobile{
+        display: block;
+        border: 1px solid #EFEFEF;
+        border-radius: 15px;
+        margin: 4rem;
+        color: #595959;
+    }
+    .deposit{
+       color: #269A26;
+
+    }
+    .withdrawal{
+        color: #BF3939;
+
+ 
+     }
+    
+    .transfer-mobile .ifeanyi-mobile{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+        padding: 25px 16px;
+        border-bottom: 1px solid #EFEFEF
+    }
+    .transfer-mobile .ifeanyi-mobile .mobile-imgs{
+        position: absolute;
+        left: 9rem;
+        
+    }
+    table{
+        display: none;
+    }
+}
+
+/* table tr .flex-td{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */

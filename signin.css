@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    font-size: 16px;
+    font-family:"gilroy";
+}
+@font-face {
+    font-family: "gilroy";
+    src: url(./fonts/Gilroy-Light.otf);
+}
+html{
+    font-size: 62.5px;
+}
+
+.logo img{
+    padding-left: 1.2rem;
+    padding-top: 0.8rem;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.logo-mobile{
+    display: none;
+}
+.sign-in{
+    display: flex;
+    justify-content: space-around;
+}
+.sign-in-bg{
+    background-image: url(./imgs/sign-in-bg.png);
+    height: 130.4vh;
+    width: 653px;
+    background-repeat: no-repeat;
+    
+}
+.sign-in .sign-in-bg .logo a,i{
+    text-decoration: none;
+    color: #fff;
+}
+.sign-in .sign-in-bg .logo i{
+    padding-left: 5rem;
+}
+.sign-in .sign-in-bg .img-group-data{
+    padding-top: 1.6rem;
+    padding-left: 180px;
+}
+.sign-in .sign-in-bg h3, p{
+    color: #fff;
+    text-align: center;
+}
+.sign-in .sign-in-bg h3{
+    padding-top: 2rem;
+}
+.sign-in .sign-in-bg .dot-dot-img{
+    padding-left: 5rem;
+}
+
+.input-sign-in h1{
+    margin-top: 1.5rem;
+    font-weight: 600;
+    font-size: 0.5rem;
+    color: #646464;
+
+}
+.input-sign-in p{
+    color: #595959; 
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+label{
+    color: #757575;
+    font-size: 0.22rem;
+}
+input[type=text]{
+    font-size: 0.2rem;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    width: 356px;
+    margin-bottom: 0.4rem;
+}
+/* input[type=checkbox]{
+    color: #757575;
+} */
+input[type=email]{
+    font-size: 0.2rem;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    width: 356px;
+    margin-bottom: 0.4rem;
+}
+/* input[type=image]{
+    padding: 10px 20px;
+    width: 170px;
+    border: 1px solid #EFEFEF;
+    border-radius: 10px;
+    margin: 0.1rem;
+} */
+ .input-a{
+    font-size: 0.2rem;
+ }
+ .google-img{
+/* display:; */
+width: 13vw;
+ }
+.btn-1{
+    padding: 14px 24px;
+    background: #8A66F1;
+    border: none;
+    width: 356px;
+    border-radius: 150px;
+    margin-top: 0.6rem;
+    color: #FFFFFF;
+    cursor: pointer;
+
+}
+.btn-1:hover{
+    background: #7C5CD9;
+}
+.sign-in .input-sign-in .sign-in-p{
+    text-align: center;
+    
+}
+.input-sign-in a{
+    margin-left: 1.6rem;
+}
+.sign-in .input-sign-in .account{
+    text-align: center;
+    background: #F3F0FE;
+    border: 1px dashed #DBD0FB;
+    width: Fill 356px;
+    padding: 10px 32px 10px 32px;
+    border-radius: 10px;
+
+}
+
+/* coding for tablet responsiveness */
+@media (max-width:1020px){
+  
+    /* html{
+        font-size: 70%;
+    } */
+    .sign-in-bg{
+        background-image: url(./imgs/sign-in-bg.png);
+        height: 130.4vh;
+        max-width:46vw;
+        background-repeat: no-repeat;
+        
+    }
+    .img-group-data{
+        width: 64vw;
+        margin-left: -2rem;
+        margin-top: 0.5rem;
+    }
+    .fa-arrow-left{
+        position: absolute;
+        cursor: pointer;
+        left: -2rem;
+        top: 1rem;
+    }
+    .sign-in .sign-in-bg h3{
+        font-size: 0.24rem;
+    }
+    .sign-in .sign-in-bg p{
+        font-size: 0.18rem;
+    }
+    .dot-dot-img{
+        margin-left: -2.7rem;
+        margin-top: 0.5rem;
+    }
+    
+    .logo a{
+        display: none;
+    }
+    .logo i{
+        margin-left: -2.5rem;
+    }
+   .sign-in .input-sign-in h1{
+    font-size: 0.4rem;
+   }
+   .sign-in .input-sign-in p{
+    font-size: 0.2rem;
+   }
+   label{
+    font-size: 0.19rem;
+   }
+   input[type=email]{
+    font-size: 0.18rem;
+    width: 40vw;
+   }
+   input[type=text]{
+    font-size: 0.18rem;
+    width: 40vw;
+   }
+   .btn-1{
+    font-size: 0.18rem;
+    width: 40vw;
+   }
+   .google-img-tablet{
+    margin-right: 1.7rem;
+    margin-top: 0.1rem;
+   }
+   .input-a{
+    font-size: 0.16rem;
+   }
+   .sign-in .input-sign-in .account{
+    width: 42.34vw;
+    margin-top: 1rem;
+    font-size: 0.15rem;
+    padding-left: -6rem;
+   }
+   .sign-in .input-sign-in .account a{
+    /* width: 40vw; */
+    font-size: 0.15rem;
+    padding-left: -29rem;
+   }
+   
+}
+
+
+/*coding for mobile responsiveness*/
+@media (max-width:700px){
+    
+    /* html{
+        font-size: 50%;
+    } */
+    .sign-in .sign-in-bg{
+        display: none;
+    }  
+    .logo-mobile{
+        display: block;
+       /* padding-left: 2rem; */
+        
+    }
+    .fa-arrow-left{
+        color: black;
+        margin-right: 35px;
+        margin-left: 19px;
+        cursor: pointer;
+    }
+    .sign-in .input-sign-in{
+        margin-left: -3rem;
+        
+    }
+    input[type=image]{
+        width: 41.5vw;
+    }
+    input[type=email]{
+        width: 83vw;
+    }
+    input[type=text]{
+        width: 83vw;
+    }
+    .btn-1{
+        width: 83vw;
+    }
+    .sign-in .input-sign-in .account{
+        width: 83vw;
+        margin-top: 0.7rem;
+    } 
+    /* .input-fb{
+        width: 33vw;
+    } */
+    .sign-in .input-sign-in .google-img{
+        width: 33vw;
+        margin-top: 0.3rem;
+     }
+   
+}
+

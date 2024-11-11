@@ -1,0 +1,285 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0;
+    padding: 0; */
+    font-size: 16px;
+    font-family: "gilroy";
+}
+@font-face {
+    font-family: "gilroy";
+    src: url(./fonts/Gilroy-Light.otf);
+}
+html{
+    font-size: 62.5px;
+}
+.logo img{
+    padding-left: 1.2rem;
+    padding-top: 0.8rem;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.logo-mobile{
+    display: none;
+}
+#sign-up{
+    display: flex;
+    justify-content: space-around;
+}
+.sign-up-bg{
+    background-image: url(./imgs/sign-in-bg.png);
+    height: 130.4vh;
+    width: 774px;
+    background-repeat: no-repeat;
+    margin-left: 0.4rem;
+    margin-top: 0.4rem;
+}
+#sign-up .sign-up-bg .logo a,i{
+    text-decoration: none;
+    color: #fff;
+}
+#sign-up .sign-up-bg .logo i{
+    padding-left: 5rem;
+}
+#sign-up .sign-up-bg .sign-up-img{
+    padding-top: 2.1rem;
+    padding-left: 2.4rem;
+}
+#sign-up .sign-up-bg p{
+    color: #FDFDFD;
+    font-size: 0.3rem;
+    font-weight: 400;
+    text-align: center;
+    /* font-family: Gilroy;
+ */
+
+}
+#sign-up .sign-up-bg h3{
+    padding-top: 1.6rem;
+    color: #FDFDFD;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+#sign-up .sign-up-bg .dot-dot-img{
+    padding-left: 4.9rem;
+}
+
+.input-sign-up{
+    padding-left: 2.5rem;
+    /* padding-top: 104px; */
+}
+label{
+    padding-bottom: 2rem;
+}
+.input-sign-up h1{
+    margin-top: 104px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #595959;
+
+}
+.input-sign-up p{
+    color: #757575; 
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+input[type=text]{
+    font-size: 0.2rem;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    width: 356px;
+    margin-bottom: 0.4rem;
+    margin-top: 0.1rem;
+}
+input[type=email]{
+    font-size: 0.2rem;
+    padding: 16px;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    width: 356px;
+    margin-bottom: 0.4rem;
+    margin-top: 0.1rem;
+}
+ label{
+    color: #757575; 
+}
+input[type=checkbox]{
+    color: #757575; 
+}
+input[type=image]{
+    padding: 10px 20px;
+    width: 170px;
+    border: 1px solid #EFEFEF;
+    border-radius: 10px;
+    margin: 0.1rem;
+}
+.btn-1{
+    padding: 14px 24px;
+    background: #8A66F1;
+    border: none;
+    width: 356px;
+    border-radius: 150px;
+    margin-top: 0.6rem;
+    color: #FFFFFF;
+
+}
+.btn-1:hover{
+    background: #7C5CD9;
+}
+.input-sign-up a{
+    margin-left: 1rem;
+}
+#sign-up .input-sign-up .account{
+    /* text-align: left; */
+    font-size: 0.22rem;
+    background: #F3F0FE;
+    border: 1px dashed #DBD0FB;
+    width: 356px;
+    padding: 10px 32px 10px 32px;
+    border-radius: 10px;
+    margin-left: 0.1rem;
+
+}
+#sign-up .input-sign-up .account a{
+    font-size: 0.22rem;
+}
+
+/* for tablet responsiveness*/
+@media(max-width:1024px){
+    html{
+        font-size: 75%;
+    }
+    .sign-up-bg{
+        max-width: 45vw;
+    }
+    .sign-up-img{
+        width: 43vw;
+        margin-top: 10rem;
+    }
+    #sign-up .sign-up-bg h3{
+        font-size: 1.8rem;
+        margin-top: 5rem;
+    }
+    #sign-up .sign-up-bg p{
+        font-size: 1rem;
+    }
+    .dot-dot-img{
+        margin-top: 3rem;
+        margin-left: 6.4rem;
+    }
+    input[type=text]{
+        font-size: 0.8rem;
+        /* font-size: 0.2rem; */
+        padding: 16px;
+        border-radius: 10px;
+        border: 1px solid #EFEFEF;
+        width: 40vw;
+        margin-bottom: 0.4rem;
+        margin-top: 0.1rem;
+
+    }
+    input[type=email]{
+        font-size: 0.8rem;
+        /* font-size: 0.2rem; */
+        padding: 16px;
+        border-radius: 10px;
+        border: 1px solid #EFEFEF;
+        width: 40vw;
+        margin-bottom: 0.4rem;
+        margin-top: 0.1rem;
+    }
+    .btn-1{
+        width: 40vw;
+        font-size: 1rem;
+    }
+    #sign-up .input-sign-up .account a{
+        font-size: 1rem;
+        padding-left: 8rem;
+    }
+    
+    /* #sign-up .input-sign-up .account p{
+        text-align: center;
+        font-size: 4rem;
+    } */
+    /* input[type=checkbox]{
+        font-size: 0.8rem;
+    } */
+    label{
+        font-size: 1rem;
+    }
+    #sign-up .input-sign-up h1{
+        font-size: 2rem;
+    }
+    /* .logo img{
+        padding-left: 0.6rem;
+        padding-top: 0.4rem;
+        display: flex;
+        justify-content: space-around;
+    } */
+    
+
+}
+
+/*mobile responsiveness*/
+ @media (max-width:700px){
+
+
+     /* html{
+        font-size: 50%;
+    } */
+    #sign-up .sign-up-bg{
+        display: none;
+    }  
+    .logo-mobile{
+        display: block;
+        position: absolute;
+       /* padding-left: 2rem; */
+        
+    }
+    .fa-arrow-left{
+        color: black;
+        margin-right: 35px;
+        margin-left: 19px;
+        cursor: pointer;
+    }
+    .sign-in .input-sign-in{
+        margin-left: -3rem;
+        
+    }
+    input[type=image]{
+        width: 41.5vw;
+    }
+    input[type=email]{
+        width: 83vw;
+    }
+    input[type=text]{
+        width: 83vw;
+    }
+    .btn-1{
+        width: 83vw;
+    }
+    /* #sign-up .input-sign-up .account{
+        text-align: center;
+    } */
+    #sign-up .input-sign-up .account{
+        width: 83vw;
+        margin-top: 2.8rem;
+        font-size: 1.2rem;
+    } 
+    #sign-up .input-sign-up .account a{
+        font-size: 1.2rem;
+        padding-left: 8rem;
+    }
+    #sign-up .input-sign-up .account-2 p{
+        text-align: center;
+        
+    }
+    /* .input-fb{
+        width: 33vw;
+    } */
+    /* .sign-in .input-sign-in .google-img{
+        width: 33vw;
+        margin-top: 0.3rem;
+     } */
+}
