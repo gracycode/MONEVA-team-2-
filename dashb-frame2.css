@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+@font-face {
+    font-family: "gilroy";
+    src: url(./fonts/Gilroy-Regular.otf);
+}
+aside{
+    background: #F2F2F2;
+    width: 20vw;
+    height: 125vh;
+    padding: 10rem 5rem;
+    float: left;
+    margin-right: 4rem;
+    /* position: relative; */
+}
+.btn-1{
+    background: #8A66F1;
+    color: #FFFFFF;
+    padding: 12px;
+    width: 169px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 1.8rem;
+    /* position: relative; */
+    /* font-size: 12px; */
+}
+.btn-1:hover{
+    background: #F9F7FF;
+    color: #757575;
+}
+.container aside .info-img{
+    position: absolute;
+    margin-top: 0.5rem;
+    left: 5.3rem;
+}
+.btn-2{
+    padding: 12px 12px 12px 30px;
+    width: 169px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 1.8rem;
+    /* font-size: 12px; */
+    color: #A0A0A0;
+    /* position: relative; */
+}
+.btn-2:hover{
+    background: #8A66F1;
+    color: #FFFFFF;
+}
+.container .fa-budgeting{
+    display: flex;
+    justify-content: space-between;
+}
+.container h2{
+    color: #595959;
+    padding-bottom: 2rem;
+    margin-left: 10rem;
+}
+.fa-xmark{
+    font-size: 1.5rem;
+    margin-right: 0.8rem;
+    color: #595959;
+    cursor: pointer;
+}
+.container{
+    padding-top: 2rem;
+    background: #F2F2F2;
+    /* height: 125vh; */
+    /* width: 80vw; */
+    /* float: right; */
+}
+.category {
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 15px;
+    height: 115vh; 
+    /* padding: 3rem; */
+    margin-left: 19rem;
+    /* width: 990px; */
+    
+}
+.category .cate-p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8.5rem;
+    color: #757575;
+}
+.container .category .text{
+    font-size: 0.8rem;
+    border: 1px solid #EFEFEF;
+    border-radius: 0.6rem;
+    padding: 12px 16px 12px 56px;
+    width: 27vw;
+    margin-bottom: 1rem;
+    /* margin-top: 76px; */
+    /* height: 9.5vh; */
+   
+}
+.container .category .text h4{
+    padding-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #595959;    
+}
+.container .category .text p{
+    color: #757575;
+
+}
+.yellow-hover:hover{
+    background: #FFFAE6B2;
+    border: 1px solid #FFCC00;
+}
+.red-hover:hover{
+    background: #FFEDEDB2;
+    border: 1px solid #FF4C4C;
+}
+.blue-hover:hover{
+    background: #F3F0FEB2;
+    border: 1px solid #5072E9
+}
+.auto-suggestion-1{
+    display: flex;
+    justify-content: space-around;
+    width: 850px;
+    margin: auto;
+}
+.container .category img{
+    position: relative;
+    left:-2rem;
+    top: 1.5rem;
+}
+.auto-suggestion-4{
+    margin-left:8.8rem
+}
+.btn-3{
+    /* font-size: 0.9rem; */
+    font-weight: 500;
+    color: #8A66F1;
+    background: #F2F2F2;
+    padding: 14px 26px 14px 24px;
+    border: none;
+    border-radius: 9.4rem;
+    width: 8.1rem;
+    /* margin-left: 13rem; */
+}
+.btn-3:hover{
+    background-color: #8A66F1;
+    color: #F2F2F2;  
+}
+.fa-arrow-left-long{
+    color: #8A66F1;
+    position: absolute;
+    margin-top: 0.9rem;
+    margin-left: 0.8rem;
+}
+.btn-4{
+    /* font-size: 0.9rem; */
+    font-weight: 500;
+    background-color: #8A66F1;
+    color: #F2F2F2;
+    padding: 14px 26px 14px 24px;
+    border: none;
+    border-radius: 9.4rem;
+    width: 8.1rem;
+    margin-left: 1.5rem;
+}
+.btn-4:hover{
+    color: #8A66F1;
+    background: #F2F2F2;
+}
+.fa-arrow-right-long{
+    color: #F2F2F2;
+    position: absolute;
+    margin-top: 0.9rem;
+    margin-left: -2.4rem;
+}
+.fa-arrow-left-long:hover{
+    color: #F2F2F2;
+}
+.buttons3-4{
+    margin-left: 25rem;
+    margin-top: 2.5rem;
+    
+}
+
+/*THIS STYLING IS FOR FRAME 3*/
+.recommendations{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-top-left-radius: 15px;
+    height: 115vh; 
+    /* padding: 3rem; */
+    margin-left: 19rem;
+    /* width: 990px; */
+}
+.recommendations .cate-p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 8.5rem;
+    color: #757575;
+    font-size: 14px;
+}
+.recommendations{
+    margin-left: 20.5rem;
+}
+.entertain-flex{
+    margin-left: 8.5rem;
+}
+.best-result{
+    position: absolute;
+    top: 10.8rem;
+    left: 55rem;
+}
+.suggestion-for-you{
+    margin-top: 2rem;
+}
+.ai-star-blue{
+    position: absolute;
+    margin-top: 1.6rem;
+}
+.p-recommend{
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    color: #757575;
+    font-size: 14px;
+
+}
+.container .recommendations .entertain-flex .suggestion-for-you h4{
+    color: #595959;
+    font-size: 14px;
+}
+.btn-02{
+    background: #8A66F1;
+    color: #FFFFFF;
+    padding: 12px 12px 12px 30px;
+    width: 169px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 1.8rem;
+}
+.btn-01{
+    padding: 12px 12px 12px 30px;
+    width: 169px;
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 1.8rem;
+    /* font-size: 12px; */
+    color: #A0A0A0;
+    background: #F9F7FF;
+}
+
+/*STYLING FOR FRAME 4 STARTS HERE*/
+.recommendations-flex{
+    display: flex;
+    justify-content: space-around;
+    width: 850px;
+    margin: auto;
+}
+.p-customize{
+    margin-top: 3rem;
+    margin-left: 9.9rem;
+    margin-bottom:3rem ;
+    font-size: 14px;
+    color: #595959;
+}
+.Frame-movable-amount{
+    margin-left: 9.5rem;
+}
+
+/*STYLING FOR FRAME 5 STARTS HERE*/
+.faaa-x{
+    float: right;
+    margin-top: -12rem;
+    margin-right: 3rem;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    margin-top: 15rem;
+    /* width: 350px; */
+    /* height: 50px; */
+}
+.section h4{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.Hourglass{
+    position: absolute;
+    margin-top: 7.9rem;
+    margin-left: 29rem;
+}
+
+/*STYLING FOR FRAME 6 STARTS HERE*/
+.container-frame6{
+    background-image: url(./imgs/frame6-bg.png);
+    width: 514px;
+    height: 301.98px;
+    background-repeat: no-repeat;
+    margin-top: 10rem;
+    margin-left: 28rem;
+    align-content: center; 
+    text-align: center;
+}
+.container-frame6 h3{
+    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
+}
+.btn-6{
+    width: 142px;
+    border-radius: 150px;
+    border: none;
+    margin-top: 1.5rem;
+    padding: 14px 24px;
+    background: #8A66F1;
+    color: #FFFFFF;
+}
+.btn-6:hover{
+    background: #8f68fb;
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+@font-face {
+    font-family: "gilroy";
+    src: url(./fonts/Gilroy-Regular.otf);
+}
+aside{
+    background: #F2F2F2;
+    width: 20vw;
+    height: 125vh;
+    padding: 10rem 5rem;
+    float: left;
+    margin-right: 4rem;
+    /* position: relative; */
+}

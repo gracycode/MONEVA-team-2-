@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+@font-face {
+    font-family: "gilroy";
+    src: url(./fonts/Gilroy-Regular.otf);
+}
+/* html{
+    font-size: 62.5px;
+} */
+
+.fa-xmark{
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin-left: 26rem;
+    margin-bottom: 1rem;
+    color: #595959;
+    /* width: 20px;
+    height: 20px; */
+}
+.smarter-finances{
+    text-align: center;
+    margin-top: 4.75rem;
+   
+   
+}
+.smarter-finances h3, h4{
+    color: #595959;
+    margin-bottom: 1rem;
+}
+.smarter-finances p{
+   color: #757575;
+    /* font-size: 14px; */
+}
+.smart-dynamic-budgeting{
+    margin-top: 5rem;
+}
+.frame-1{
+    border: 1px solid #EFEFEF;
+    border-radius: 1rem;
+    width: 28.3rem;
+    height: 106px;
+    margin-bottom: 1rem;
+    padding-left: 3.5rem;
+    padding-top: 1rem;
+    text-align: left;
+    
+
+}
+.text-boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.smarter-finances .text-boxes img{
+    position: absolute;
+    left: 29rem;
+}
+input[type=radio]{
+    color: #EFEFEF;
+    position: absolute;
+    margin-top: -4.5rem;
+    margin-left: 23rem;
+    
+}
+button{
+    background: #8A66F1;
+    color: #FFFFFF;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 9.4rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}

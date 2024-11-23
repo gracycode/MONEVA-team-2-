@@ -38,6 +38,9 @@ aside{
 .search-bar .fa-magnifying-glass{
     display: none;
 }
+.menu-bar-tablet, .search-bar-tablet, .transactions-mobile-tablet, .income-expense-tablet{
+    display: none;
+}
 
 .moneva-logo-img{
 height: 4vh;
@@ -64,13 +67,34 @@ aside a{
 .transactions-bg, .transactions-bg a{
     color: #F3F0FE;
     background: #8A66F1;
-    /* padding: 0.1rem 0 0.1rem; */
+    padding: 0.1rem 0 0.1rem;
     border-radius: 0.1rem;
+}
+.transactions-bg img{
+    width: 1.5vw;
+    height: 4vh;
+}
+.transactions-bg:hover{
+    background: #7C5CD9;
+
+}
+.btn-tablet1{
+    display: none;
 }
 .transactions-bg{
     padding: 0.1rem 0.2rem;
     margin-left: -0.2rem;
 }
+ .transaction .today h3{
+    color: #595959;
+    font-size: 0.4rem;
+ }
+ .transaction .today p{
+    color:#757575;
+ }
+ .transaction{
+    display: flex;
+ }
 .transactions-mobile{
     display: none;
 
@@ -260,7 +284,7 @@ header .Ai-div button{
     margin-left: 0.2rem;
 }
 
-/* styling for table starts here */
+/* styling for tablet starts here */
 table, tr{
     border:  1px solid #EFEFEF;
     border-collapse: collapse;
@@ -347,6 +371,93 @@ input[type=checkbox]{
     margin-top: 0.2rem;
 }
 
+/*tablet responsiveness*/
+@media(max-width: 1040px){
+    #aside aside{
+        display: none;
+    }
+    
+ .transaction{
+    display: none;
+ }
+ .menu-bar-tablet{
+    display: flex;
+    justify-content: space-between;
+ }
+ .btn-tablet1{
+    display: block;
+    
+ }
+ .btn-tablet1 button{
+    margin-top: 1rem;
+    margin-left: 2.2rem;
+    font-size: 0.19rem;
+    color: #CACACA;
+    width: 8.8rem;
+    padding: 12px 16px;
+    background: #F7F7F7;
+    border-radius: 36px;
+    border: none;
+ }
+ .transactions-mobile-tablet{
+    display: flex;
+    justify-content: space-between;
+    max-width: 85vw;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+ }
+ .transactions-mobile-tablet h3{
+    color: #595959;
+    font-size: 0.3rem;
+ }
+ .transactions-mobile-tablet p{
+    color:#757575;
+    /* font-size: 0.3rem; */
+ }
+ /* .menu-bar-tablet{
+    display: flex;
+    justify-content: space-between;
+ } */
+  .menu-tablet{
+    position: absolute;
+    margin-top: -0.8rem;
+    margin-left: 0.8rem;
+  }
+  header{
+    /* width: 85vw; */
+    margin: auto;
+  }
+ .search-btn{
+    display: none;
+ }
+ .search-bar-tablet{
+    display: block;
+
+    /* margin-top: 18px;
+    margin-left: 0.5rem;
+    font-size: 0.19rem;
+    color: #CACACA;
+    width: 4.8rem;
+    padding: 12px 16px;
+    background: #F7F7F7;
+    border-radius: 36px;
+    border: none; */
+ }
+ .Ai-div{
+    margin-left: 7rem;
+ }
+ table{
+    margin-left: 0.6rem;
+    width: 88vw;
+    margin: auto;
+    font-size: 0.2rem;
+ }
+ .filters{
+    margin-left: -50px;
+ }
+}
+
 /*mobile responsiveness*/
 
 @media(max-width: 700px){
@@ -366,11 +477,17 @@ input[type=checkbox]{
     .menu-bar{
         display: flex;
         justify-content: space-between;
+        width: 85vw;
+        margin: auto;
+        margin-top: 1rem;
     }
     .search-bar .btn-mobile1{
         display: block;
         border-radius: 36px;
-        width: 335px;
+        width: 85vw;
+        margin: auto;
+        margin-top: 2.5rem;
+        margin-bottom: 2.5rem;
         height: 40px;
         border: none;
         background: #F7F7F7;
@@ -379,10 +496,26 @@ input[type=checkbox]{
     .transactions-mobile{
         display:flex;
         justify-content: space-between;
+        width: 85vw;
+        margin: auto;
+    }
+    .transactions-mobile .trans-mobile h3{
+        color: #595959;
+
+    }
+    .transactions-mobile .trans-mobile p{
+        color: #757575;
+
     }
     .income-expense{
         display: flex;
         justify-content: space-between;
+        width: 85vw;
+        margin: auto;
+        margin-top: 2.5rem;
+    }
+    .drizzy-avatar-mobile{
+        width: 5vw;
     }
     .transfer-mobile{
         display: block;
@@ -414,6 +547,9 @@ input[type=checkbox]{
         
     }
     table{
+        display: none;
+    }
+    .transactions-mobile-tablet, .income-expense-tablet{
         display: none;
     }
 }
