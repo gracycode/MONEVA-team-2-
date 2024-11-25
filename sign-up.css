@@ -144,6 +144,9 @@ input[type=image]{
 #sign-up .input-sign-up .account a{
     font-size: 0.22rem;
 }
+.account-2{
+
+}
 
 /* for tablet responsiveness*/
 @media(max-width:1024px){
@@ -273,7 +276,7 @@ input[type=image]{
         font-size: 1.2rem;
         padding-left: 8rem;
     }
-    #sign-up .input-sign-up .account-2 p{
+    #sign-up .input-sign-up .account-2{
         text-align: center;
         
     }
